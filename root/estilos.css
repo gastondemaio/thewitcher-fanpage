@@ -1,0 +1,148 @@
+
+
+body{
+    background-image: linear-gradient(140deg, #a93ac5, black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+
+}
+h2{
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    list-style: none;
+    padding: 0;
+    background: #2D4262;
+    width: 700px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu__decoracion{
+    text-decoration: none;
+    color: #D09683;
+    padding: 20px;
+    display: inline-block;
+}
+
+.menu__diseño{
+    text-align: center;
+}
+
+.menu__decoracion:hover{
+    background: #73605B;
+}
+
+.pieDePagina{
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    list-style: none;
+    padding: 0;
+    background: #2D4262;
+    width: 450px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.pieDePagina__decoracion{
+   text-decoration: none;
+   color: #D09683;
+   padding: 20px;
+   display: inline-block; 
+}
+
+.pieDePagina__diseño{
+    text-align: center;
+}
+
+.pieDePagina__decoracion:hover{
+    background: #73605B;
+}
+
+.video{
+    margin: auto;
+    width: 100%;
+    height: 900px;
+    display: block;
+}
+
+.foto{
+    width: 1366px;
+    height: 720px;
+    display: block;
+    margin: auto;
+    border: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 100%;
+}
+
+.mapa{
+    width: 1000px;
+    height: 720px;
+    display: block;
+    margin: auto;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 100%;
+}
+
+.personaje{
+    margin: auto;
+    display: block;
+}
+
+.peliculaTitulo{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+.serieTitulo{
+    width: 200;
+    height: 100;
+    margin: auto;
+    display: block;
+}
+
+.libros{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.comics{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    border-color: white; 
+}
+
+.formulario{
+    text-align: center;
+    color: white;
+}
