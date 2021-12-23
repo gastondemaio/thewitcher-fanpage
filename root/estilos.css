@@ -1,91 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, p, li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+h1, h2, p{
+    text-align: center;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.menu__links{
+    list-style: none;
+}
+
+.menu__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.menu__links li a:hover{
+    color: #000000;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(49, 8, 68);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(49, 8, 68, 0.8);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 10%;
+}
 
 body{
-    background-image: linear-gradient(140deg, #a93ac5, black);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: transitionIn 0.75s;
+    background-image: linear-gradient(to right bottom, #7A2FC0, #5A31B9, #247DCD);
+    background-size: 500%;
+    animation: fanimado 5s infinite;   
 }
 
-h1{
-    color: aliceblue;
-    text-align: center;
-
-}
-h2{
-    color: aliceblue;
-    text-align: center;
-}
-
-p{
-    color: aliceblue;
-    text-align: center;
-}
-
-.menu{
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    list-style: none;
-    padding: 0;
-    background: #2D4262;
-    width: 700px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.menu__decoracion{
-    text-decoration: none;
-    color: #D09683;
-    padding: 20px;
-    display: inline-block;
-}
-
-.menu__diseño{
-    text-align: center;
-}
-
-.menu__decoracion:hover{
-    background: #73605B;
-}
-
-.pieDePagina{
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
-    list-style: none;
-    padding: 0;
-    background: #2D4262;
-    width: 450px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-.pieDePagina__decoracion{
-   text-decoration: none;
-   color: #D09683;
-   padding: 20px;
-   display: inline-block; 
-}
-
-.pieDePagina__diseño{
-    text-align: center;
-}
-
-.pieDePagina__decoracion:hover{
-    background: #73605B;
-}
 
 .video{
-    margin: auto;
+    margin: center;
     width: 100%;
     height: 900px;
-    display: block;
+    display: flex;
 }
 
 .foto{
-    width: 1366px;
+    width: 100%;
     height: 720px;
-    display: block;
-    margin: auto;
+    display: flex;
+    margin: center;
     border: 10px;
     border-style: solid;
     border-color: white;
@@ -93,10 +94,10 @@ p{
 }
 
 .mapa{
-    width: 1000px;
-    height: 720px;
-    display: block;
-    margin: auto;
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    margin: center;
     border: 5px;
     border-style: solid;
     border-color: white;
@@ -105,38 +106,38 @@ p{
 
 .personaje{
     margin: auto;
-    display: block;
+    display: flex;
 }
 
 .peliculaTitulo{
-    width: 500px;
+    width: 600px;
     height: 300px;
     margin: auto;
-    display: block;
+    display: flex;
 }
 
 .serieTitulo{
     width: 200;
     height: 100;
     margin: auto;
-    display: block;
+    display: flex;
 }
 
 .libros{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     margin: auto;
-    display: block;
+    display: flex;
     border: 1px;
     border-style: solid;
     border-color: white;
 }
 
 .comics{
-    width: 400px;
+    width: 200px;
     height: 400px;
     margin: auto;
-    display: block;
+    display: flex;
     border: 1px;
     border-style: solid;
     border-color: white; 
@@ -145,4 +146,29 @@ p{
 .formulario{
     text-align: center;
     color: white;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
