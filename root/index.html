@@ -6,49 +6,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE WITCHER FAN PAGE</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body class="gridContainer">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="estilos.css"> -->
+    <style>
+        .color0 {
+            background-color: dodgerblue;
+            color: white;
+        }
 
-    <header class="header">
+        .color1 {
+            background-color: darkcyan;
+            color: white;
+        }
+
+        .color2 {
+            background-color: beige;
+            color: #3a3a3a;
+        }
+
+        .color3 {
+            background-color: coral;
+        }
+
+        .color4 {
+            background-color: crimson;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container-fluid navbar navbar-expand-md bg-dark navbar-dark border-3 border-bottom border-primary">
         <img class="logo" src="imagenes/logo.png" alt="logo">
-        <nav>
-            <ul class="menu__links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="historia.html " >Historia</a></li>
-                <li><a href="personajes.html" >Personajes</a></li>
-                <li><a href="pelicula.html">Pelicula</a></li>
-                <li><a href="serie.html">Serie</a></li>
-                <li><a href="libros.html">Libros</a></li>
-            </ul>
-        </nav>
-        <a class="boton" href="formulario.html"><button>Contacto</button></a>
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">THE WITCHER</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-3 mr-auto ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" class="navbar-brand">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="historia.html" class="navbar-brand">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="personajes.html" class="navbar-brand">Personajes</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="pelicula.html" class="navbar-brand">Pelicula</a></li>
+                    <li class="nav-item"><a class="nav-link" href="serie.html" class="navbar-brand">Serie</a></li>
+                    <li class="nav-item"><a class="nav-link" href="libros.html" class="navbar-brand">Libros</a></li>
+                </ul>
+                <a class="nav-link" href="formulario.html"><button class="btn btn-primary">Contacto</button></a>
+            </div>
+        </div>
     </header>
-    <nav class="navbar">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/c0i88t0Kacs" title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen class="video">
-    </iframe>
+    
+    <nav class="container-fluid">
+        <div class="row">
+            <div class="color1 embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/c0i88t0Kacs"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen class="img-thumbnail mx-auto d-block">
+                </iframe>
+            </div>
+        </div>
     </nav>
-    <main class="main">
-        Prueba para la entrega!
+    
+    <main class="container-fluid">
+        <div class="row">
+            <div class="color3 col-6 py-2 text-center">
+                <a href="https://thewitcher.com/en/witcher3">
+                    <img src="https://wallpaperaccess.com/full/673915.jpg" class="img-thumbnail mx-auto d-block">
+                </a>
+            </div>
+            <div class="color3 col-6 py-2 text-center">
+                <a href="https://store.steampowered.com/developer/CDPR/list/36940/">
+                    <img src="https://wallpaperaccess.com/full/5075865.png" class="img-thumbnail mx-auto d-block">
+                </a>
+            </div>
+        </div>
     </main>
-    <aside class="sidebar">
-        <a href="https://thewitcher.com/en/witcher3">
-        <img src="https://wallpaperaccess.com/full/673915.jpg" class="foto">
-    </a>
-    <br>
-    <a href="https://store.steampowered.com/developer/CDPR/list/36940/">
-        <img src="https://wallpaperaccess.com/full/5075865.png" class="foto">
-    </a>
-    <br>
-    </aside>
-    <footer class="footer">
-        <a href="formulario.html"><button>Contacto</button></a>
-        <a href="https://www.linkedin.com/in/gaston-de-maio-6836b8149/?originalSubdomain=ar"><button>LinkedIn</button></a>
-        <a href="https://github.com/gastondemaio"><button>GitHub</button></a>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="color4 col-md-12 py-2 text-center">
+               <div class="flex-center mx-1">
+                    <a href="formulario.html"><button class="btn btn-primary mx-1">Contacto</button></a>
+                    <a href="https://www.linkedin.com/in/gaston-de-maio-6836b8149/?originalSubdomain=ar"><button class="btn btn-primary mx-1">LinkedIn</button></a>
+                    <a href="https://github.com/gastondemaio"><button class="btn btn-primary  mx-1">GitHub</button></a>
+               </div>
+            </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
