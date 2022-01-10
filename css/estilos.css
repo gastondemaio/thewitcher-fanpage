@@ -1,9 +1,9 @@
 html {
-    height: 100vh;
+    height: 100%;
+    animation: transitionIn 2s
 }
 
 body {
-    animation: transitionIn 0.75s;
     background-image: linear-gradient(to right bottom, #7A2FC0, #5A31B9, #247DCD);
     animation: fanimado 5s infinite;
     background-size: 500%;
