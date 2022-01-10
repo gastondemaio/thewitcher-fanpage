@@ -48,5 +48,7 @@ body {
     background : url(../imagenes/foto3.jpg);
     background-size: cover;
     min-height: 200px;
+    box-shadow: 2px 2px 5px #000;
+    opacity: .9;
 }
 
