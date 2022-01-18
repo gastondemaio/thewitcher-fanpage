@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  animation: transitionIn 2s;
+}
+
+body {
+  background-image: linear-gradient(to right bottom, #7A2FC0, #5A31B9, #247DCD);
+  animation: fanimado 5s infinite;
+  background-size: 500%;
+  min-height: 100%;
+}
+body .navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .navbar .nav-item .nav-link {
+  color: #000;
+}
+body .main-header {
+  background: url(../imagenes/foto3.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .fotos {
+  width: 300px;
+  height: 300px;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fanimado {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*# sourceMappingURL=estilos.csss.map */

@@ -3,6 +3,8 @@ $color2: #5A31B9;
 $color3: #247DCD;
 $color4: #000;
 $backgroudUrl: url(../imagenes/foto3.jpg);
+$large: 60px;
+$green: #0f9243;
 
 html {
     height: 100%;
@@ -31,6 +33,111 @@ body {
         box-shadow: 2px 2px 5px $color4;
         opacity: .9;
     }
+
+    .fotos {
+        width: 300px;
+        height: 400px;
+    }
+
+$redes: (
+    red1: pink,
+    red2: red,
+    red3: orange,
+    key1 : value1,
+    );
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: #333;
+        height: 200px;
+        width: 500px;
+        border: 2px solid #333;
+        text-align: center;
+        font-size: 50px;
+        line-height: 200px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0 0 5px $color ;
+    }
+}
+
+.redsocial {
+    border: 3px solid #f00;
+    background-color: orangered;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+}
+
+.redsocial--nueva {
+    @extend .redsocial;
+    border-width: 3px;
+    color: #fff;
+    font-size: $large;
+}
+
+$redes: (
+    red1: pink,
+    red2: red,
+    red3: orange,
+    key1 : value1,
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red} {
+        background-color: #333;
+        height: 200px;
+        width: 500px;
+        border: 2px solid #333;
+        text-align: center;
+        font-size: 50px;
+        line-height: 200px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0 0 5px $color ;
+    }
+}
+
+.redsocial {
+    border: 3px solid #f00;
+    background-color: orangered;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+}
+
+.redsocial--nueva {
+    @extend .redsocial;
+    border-width: 3px;
+    color: #fff;
+    font-size: $large;
+}
+
+.box {
+    background-color: $green;
+    font-size: $large;
+    color: #fff;
+    text-align: center;
+}
+
+@mixin sizes($width, $height, $bcolor) {
+    height: $height;
+    width: $width;
+    background-color: $bcolor;
+}
+
+.box {
+    @include sizes(600px, 300px, blue);
+    
+}
+
+.box2 {
+    @include sizes(400px, 500px, green);
+    color: white;
+    text-align: center;
+    font-size: $large;
+}
+ 
 }
 
 @keyframes transitionIn{
@@ -43,7 +150,7 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-
+    
 }
 
 @keyframes fanimado{
