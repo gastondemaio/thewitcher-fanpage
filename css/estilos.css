@@ -17,7 +17,7 @@ body .navbar .nav-item .nav-link {
   color: #000;
 }
 body .main-header {
-  background: url(../imagenes/foto3.jpg);
+  background: url(../imagenes/foto4.png);
   background-size: cover;
   min-height: 200px;
   box-shadow: 2px 2px 5px #000;
@@ -26,6 +26,14 @@ body .main-header {
 body .fotos {
   width: 300px;
   height: 400px;
+}
+body .fotosCarousel {
+  width: 100px;
+  height: 100px;
+}
+body h1, body h2, body p {
+  color: white;
+  text-shadow: black 3px 3px 2px;
 }
 body .btn--red1 {
   background-color: #333;

@@ -1,5 +1,39 @@
-AGREGUE KEYWORDS EN TODAS LAS PAGINAS
-EN LA PAGINA LIBROS SE VE UN NUEVO APARTADO LLAMADO SASS2 QUE ES EL TRABAJO QUE HAY QUE ENTREGAR, LUEGO LO SACO
-CORREGI LAS COSAS QUE MI TUTOR ME PIDIO
-EMPROLIJE LA PAGINA
-AGREGUE NUEVOS TITULOS
+- En index.html arreglé un jumbotrón y cambié de imagen del mismo; 
+  Arreglé y agregué las keywords: STEAM, CDPROJECTRED, CDPROJEKTRED, WITCHER, NETFLIX, Andrzej, Sapkowski;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - INICIO.
+
+- En historia.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: HISTORIA, CDPROJECTRED, CDPROJEKTRED, THEWITCHER, NETFLIX, THEWITCHER1, THEWITCHER2, THEWITCHER3, Andrzej ,Sapkowski;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - HISTORIA.
+
+- En personajes.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: PERSONAJES, CDPROJECTRED, THEWITCHER, NETFLIX, Andrzej ,Sapkowski, GERALT, VESEMIR, TRISS, YENNEFER, CIRI, CDPROJEKTRED
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  No pude añadir imagenes correctas, por que no se implementan correctamente y no se ve el fondo transparente, no se que pasa.
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - HISTORIA.
+
+- En pelicula.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: NIGHTMARE, WOLF, CDPROJEKTRED, THEWITCHER, NETFLIX, PELICULA, Andrzej ,Sapkowski, CDPROJECTRED;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - PELICULA.
+
+- En serie.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: CDPROJECTRED, CDPROJEKTRED, THEWITCHER, NETFLIX, SERIE, Andrzej ,Sapkowski;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - SERIE.
+
+- En libros.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: LIBROS, CDPROJECTRED, CDPROJEKTRED, THEWITCHER, COMICS, Andrzej ,Sapkowski;
+  Ajuseté las imagenes a todas iguales;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Esclarecí la descripción de la página, agregué el titulo THE WITCHER FAN PAGE - LIBROS.
+
+- En formulario.html agregué un jumbotrón y cambie la imagen del mismo;
+  Arreglé y agregué las keywords: CDPROJEKTRED, CDPROJECTRED, THEWITCHER, CONTACTO, Andrzej ,Sapkowski;
+  Agregué un h1 como me lo pidieron. Detallé cada cosa con un comentario;
+  Lo centré y achiqué el card, agregué el titulo THE WITCHER FAN PAGE - CONTACTO.
+
+- Puse los h1, h2 y p con una fondo negro para que se pudiese ver mejor;
+- En la páginas libros se ve un nuevo apartado llamado SASS2 que es el trabajo que tenemos que entregar.
