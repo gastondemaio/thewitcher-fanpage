@@ -2,7 +2,13 @@ $color1: #7A2FC0;
 $color2: #5A31B9;
 $color3: #247DCD;
 $color4: #000;
-$backgroudUrl: url(../imagenes/foto4.png);
+$backgroudUrl1: url(../imagenes/foto4.png);
+$backgroudUrl2: url(../imagenes/geralt.jpg);
+$backgroudUrl3: url(../imagenes/yennefer.jpg);
+$backgroudUrl4: url(../imagenes/triss.jpg);
+$backgroudUrl5: url(../imagenes/ciri.jpg);
+$backgroudUrl6: url(../imagenes/dandilon.jpg);
+$backgroudUrl7: url(../imagenes/vesemir.jpg);
 $large: 60px;
 $green: #0f9243;
 
@@ -16,6 +22,7 @@ body {
     animation: fanimado 5s infinite;
     background-size: 500%;
     min-height: 100%;
+    background-attachment: fixed;
 
     .navbar {
         box-shadow: 2px 2px 5px $color4;
@@ -26,8 +33,53 @@ body {
         color: $color4;
     }
     
-    .main-header {
-        background: $backgroudUrl;
+    .nav-header {
+        background: $backgroudUrl1;
+        background-size: cover;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+
+    .jumbo-geralt {
+        background: $backgroudUrl2;
+        background-size: cover;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+
+    .jumbo-yen {
+        background: $backgroudUrl3;
+        background-size: cover;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+
+    .jumbo-triss {
+        background: $backgroudUrl4;
+        background-size: cover;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+    .jumbo-ciri {
+        background: $backgroudUrl5;
+        background-size: cover;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+    .jumbo-dandilon {
+        background: $backgroudUrl6;
+        background-size:cover ;
+        min-height: 200px;
+        box-shadow: 2px 2px 5px $color4;
+        opacity: .9;
+    }
+    .jumbo-vesemir {
+        background: $backgroudUrl7;
         background-size: cover;
         min-height: 200px;
         box-shadow: 2px 2px 5px $color4;
@@ -36,7 +88,7 @@ body {
 
     .fotos {
         width: 300px;
-        height: 400px;
+        height: auto;
     }
 
     .fotosCarousel {
@@ -48,6 +100,7 @@ body {
         color: white;
         text-shadow: rgb(0, 0, 0) 3px 3px 2px;
     }
+
 
 $redes: (
     red1: pink,

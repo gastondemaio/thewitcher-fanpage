@@ -8,6 +8,7 @@ body {
   animation: fanimado 5s infinite;
   background-size: 500%;
   min-height: 100%;
+  background-attachment: fixed;
 }
 body .navbar {
   box-shadow: 2px 2px 5px #000;
@@ -16,8 +17,50 @@ body .navbar {
 body .navbar .nav-item .nav-link {
   color: #000;
 }
-body .main-header {
+body .nav-header {
   background: url(../imagenes/foto4.png);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-geralt {
+  background: url(../imagenes/geralt.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-yen {
+  background: url(../imagenes/yennefer.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-triss {
+  background: url(../imagenes/triss.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-ciri {
+  background: url(../imagenes/ciri.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-dandilon {
+  background: url(../imagenes/dandilon.jpg);
+  background-size: cover;
+  min-height: 200px;
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+}
+body .jumbo-vesemir {
+  background: url(../imagenes/vesemir.jpg);
   background-size: cover;
   min-height: 200px;
   box-shadow: 2px 2px 5px #000;
@@ -25,7 +68,7 @@ body .main-header {
 }
 body .fotos {
   width: 300px;
-  height: 400px;
+  height: auto;
 }
 body .fotosCarousel {
   width: 100px;
